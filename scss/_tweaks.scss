@@ -1,0 +1,129 @@
+.field-with-error {
+  background-color: #F9DEDE !important;
+  border-bottom: 1px solid #F44949 !important;
+}
+
+/* this stops Firefox putting a red border around required input fields */
+input:invalid {
+  box-shadow: none;
+}
+
+.advice {
+  font-size: small;
+}
+
+input.ng-pristine + ul#strength {
+  display: none;
+}
+
+ul#strength {
+  display: inline-block;
+  list-style: none;
+  margin: 0;
+  margin-left: 15px;
+  padding: 3px 0 5px 0;
+  vertical-align: 2px;
+}
+
+/* show/hide animation for angular*/
+
+.animate-show-hide.ng-hide {
+  opacity: 0;
+}
+
+.animate-show-hide.ng-hide-remove {
+  transition: all linear 0.5s;
+}
+
+.red {
+  color: red;
+}
+
+.green {
+  color: green;
+}
+
+.small {
+  font-size: small;
+}
+
+/* loading bar displayed before payment screen */
+/* Found at https://www.pexels.com/blog/css-only-loaders/ */
+.loader {
+  height: 4px;
+  width: 100%;
+  position: relative;
+  overflow: hidden;
+  background-color: #ddd;
+}
+
+.loader:before {
+  display: block;
+  position: absolute;
+  content: "";
+  left: -200px;
+  width: 200px;
+  height: 4px;
+  background-color: #2980b9;
+  animation: loading 2s linear infinite;
+}
+
+@keyframes loading {
+  from {
+    left: -200px;
+    width: 30%;
+  }
+  50% {
+    width: 30%;
+  }
+  70% {
+    width: 70%;
+  }
+  80% {
+    left: 50%;
+  }
+  95% {
+    left: 120%;
+  }
+  to {
+    left: 100%;
+  }
+}
+
+/* ------------------------------------------------------------- */
+
+a.devtooltip {
+  color: red !important;
+}
+
+a.devtooltip span {
+  font-size: 10px;
+  position: absolute;
+  z-index: 999;
+  white-space: nowrap;
+  bottom: 9999px;
+  left: 50%;
+  background: #EFEEB3 !important;
+  color: #DB111E !important;
+  padding: 0px 7px;
+  line-height: 24px;
+  height: 24px;
+
+  opacity: 0;
+  transition: opacity 0.4s ease-out;
+}
+
+a.devtooltip span::before {
+  content: "";
+  display: block;
+  border-left: 6px solid #000000 !important;
+  border-top: 6px solid transparent;
+  position: absolute;
+  top: -6px;
+  left: 0px;
+}
+
+a.devtooltip:hover span {
+  opacity: 1;
+  bottom: -35px;
+}

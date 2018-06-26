@@ -1,0 +1,135 @@
+footer {
+  position: relative;
+  @media only screen and (min-width: 750px) {
+    height: 10vh;
+  }
+  .inner_wrapper.ticker {
+    background-color: $white;
+    width: 100vw;
+    //display: inline-flex;
+    height: 5vh;
+    border-left: 5px solid $brand-one;
+    border-bottom: 1px solid $brand-one;
+    padding-left: 1rem;
+    box-sizing: border-box;
+    display: none;
+
+    * {
+      color: $black;
+    }
+    .block {
+      width: auto;
+      margin-right: 20px;
+      display: inline-flex;
+      justify-content: center;
+      align-items: center;
+      min-width: 120px;
+      h6 {
+        margin: 0;
+        padding: 0 1rem;
+        border-right: 2px solid $black;
+      }
+    }
+  }
+  .inner_wrapper.footer-nav {
+    background-color: $white;
+    text-align: center;
+    .block {
+      padding: 0.2rem;
+      display: inline-flex;
+      justify-content: center;
+      align-items: center;
+    }
+    nav.block {
+      @media only screen and (min-width: 750px) {
+        height: 5vh;
+      }
+      ul {
+        z-index: 3;
+      }
+    }
+    .block.copy {
+      flex-direction: column;
+      z-index: 1;
+      @media only screen and (min-width: 750px) {
+        height: 5vh;
+      }
+    }
+  }
+  .inner_wrapper.acred {
+    width: 100%;
+    height: 100%;
+    display: inline-flex;
+    justify-content: space-between;
+    top: 0;
+    .block {
+      display: inline-flex;
+      justify-content: center;
+      align-items: center;
+      &.payment {
+        justify-content: flex-start;
+        .methods {
+          padding: 10px;
+          text-align: center;
+          img {
+            max-width: 50px;
+            width: 30%;
+            display: inline-block;
+          }
+        }
+      }
+      &.social {
+        justify-content: flex-end;
+        padding-right: 1rem;
+        img {
+          width: 30px;
+          flex-direction: row;
+          margin-right: 5px;
+        }
+      }
+    }
+    @media only screen and (min-width: 1300px) {
+      position: absolute;
+    }
+  }
+}
+
+.footer-nav {
+  nav.block {
+    width: 100%;
+    ul {
+      margin: 0;
+      padding: 0;
+      li {
+        margin: 0;
+        padding: 0;
+        list-style: none;
+        display: inline-block;
+        a {
+          color: $black;
+          font-size: $header-size / 3.5;
+          padding-right: 0.5rem;
+          &:after {
+            content: '|';
+            padding-left: 0.5rem;
+          }
+
+        }
+        &:nth-last-child(1) {
+          a {
+            &:after {
+              content: " ";
+            }
+          }
+        }
+      }
+    }
+  }
+  .block.copy {
+    width: 100%;
+    h6 {
+      margin: 0;
+      color: $black;
+    }
+  }
+}

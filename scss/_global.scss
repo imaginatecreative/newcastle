@@ -1,0 +1,180 @@
+
+$black: #1F1F1F;
+$white: #fffff;
+$true-black: #000000;
+$brand-one: rgb(27, 159, 214);
+$grey: #8E8E8E;
+
+section, header, footer {
+  width: 100%;
+  box-sizing: border-box;
+  .inner_wrapper {
+    width: 100%;
+    position: relative;
+    box-sizing: border-box;
+    &.row {
+      display: inline-flex;
+    }
+  }
+  .block, figure {
+    vertical-align: top;
+    box-sizing: border-box;
+    display: inline-block;
+    .inner_block {
+      box-sizing: border-box;
+    }
+    img {
+      max-width: 100%;
+    }
+  }
+}
+
+.constrain {
+  max-width: calc(100% - calc(100% - 1600px));
+  margin: auto;
+  padding: 0 3em;
+  box-sizing: border-box;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  position: relative;
+  margin: 0;
+  section.logo {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: auto;
+    z-index: 20;
+    .inner_wrapper {
+      width: auto;
+      display: inline-block;
+      .block {
+        max-width: 250px;
+      }
+    }
+    @media only screen and (max-width: 750px) {
+      max-width: 200px;
+    }
+    @media only screen and (max-width: 600px) {
+      max-width: 150px;
+    }
+  }
+}
+
+.bottom_row {
+  width: 100%;
+  display: inline-flex;
+  min-height: 150px;
+  padding: 0;
+  flex-direction: column;
+  flex-wrap: wrap;
+
+  @media only screen and (max-width: 1000px) {
+    .block {
+      flex: 1 1 49%;
+      width: 49%;
+      margin-bottom: 0.5rem;
+      &:nth-child(1) {
+        margin-right: 0.25rem;
+      }
+      &:nth-child(2) {
+        margin-left: 0.25rem;
+      }
+      &:nth-child(3) {
+        margin-right: 0.25rem;
+      }
+      &:nth-child(4) {
+        margin-left: 0.25rem;
+      }
+    }
+  }
+  @media only screen and (max-width: 750px) {
+    .block {
+      flex: 1 1 100%;
+      width: 100%;
+      margin-bottom: 0.5rem;
+      &:nth-child(1n) {
+        margin: 0;
+        margin-bottom: 0.5rem;
+      }
+    }
+  }
+  @media only screen and (min-width: 750px) {
+    flex-direction: row;
+
+  }
+  @media only screen and (min-width: 1000px) {
+    height: 15vh;
+    //padding-left: 120px;
+    flex-direction: row;
+    flex-wrap: nowrap;
+
+  }
+}
+
+
+
+.ticker {
+  overflow: hidden;
+  position: relative;
+
+}
+
+.ticker .block {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  margin: 0;
+  line-height: 50px;
+  text-align: center;
+  /* Starting position */
+  transform: translateX(100%);
+  /* Apply animation to this element */
+  animation: example1 30s linear infinite;
+}
+
+/* Move it (define the animation) */
+@-moz-keyframes example1 {
+  0% {
+    -moz-transform: translateX(100%);
+  }
+  100% {
+    -moz-transform: translateX(-100%);
+  }
+}
+
+@-webkit-keyframes example1 {
+  0% {
+    -webkit-transform: translateX(100%);
+  }
+  100% {
+    -webkit-transform: translateX(-100%);
+  }
+}
+
+@keyframes example1 {
+  0% {
+    -moz-transform: translateX(100%); /* Firefox bug fix */
+    -webkit-transform: translateX(100%); /* Firefox bug fix */
+    transform: translateX(100%);
+  }
+  100% {
+    -moz-transform: translateX(-100%); /* Firefox bug fix */
+    -webkit-transform: translateX(-100%); /* Firefox bug fix */
+    transform: translateX(-100%);
+  }
+}
+
+/*
+* added as per Richard on freedcamp:
+* https://freedcamp.com/BD_SPort_BlG/5050_Lottery_jah/discussions/647385
+*/
+.digit { display: inline-block;  width: 32px;  font-size: inherit; text-align: center; }
+.clock-separator { display: inline-block; width: 7px; text-align: center;}
+.countdown-clock { display: inline-block;  }
+span { font-size: .83333rem;}
+.text-right {text-align: right}

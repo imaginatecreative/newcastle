@@ -1,0 +1,221 @@
+form {
+  display: inline-flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  box-sizing: border-box;
+
+  fieldset {
+    display: inline-block;
+    box-sizing: border-box;
+    padding: 1rem;
+  }
+}
+
+.group {
+  position: relative;
+  display: inline-block;
+  width: 100%;
+  box-sizing: border-box;
+  margin-bottom: 0.8rem;
+  &.half {
+    width: 49%;
+    @media only screen and (max-width: 600px) {
+      width: 100%;
+    }
+  }
+}
+
+.inputMaterial {
+  font-size: 18px;
+  padding: 10px 10px 10px 5px;
+  display: inline-block;
+  width: 100%;
+  border: none;
+  border-bottom: 1px solid #757575;
+  box-sizing: border-box;
+}
+
+.inputMaterial:focus {
+  outline: none;
+}
+
+legend {
+
+}
+
+legend {
+  h4 {
+    text-transform: uppercase;
+    font-family: $font-family;
+    color: $brand-three;
+    font-size: $header-size / 1.9;
+
+  }
+}
+
+/* LABEL ======================================= */
+
+.group.no-style {
+  text-align: left;
+  label {
+    position: relative;
+    left: 0;
+    top: 0;
+  }
+}
+
+label {
+  color: $brand-one;
+  font-size: 14px;
+  font-weight: normal;
+  position: absolute;
+  pointer-events: none;
+  left: 5px;
+  top: 10px;
+  transition: 0.2s ease all;
+  -moz-transition: 0.2s ease all;
+  -webkit-transition: 0.2s ease all;
+}
+
+input.inputMaterial.not-required ~ label{
+  left: 5px;
+  top: 10px;
+}
+
+///* active state */
+
+.not-empty,.inputMaterial:focus ~ label,.inputMaterial.not-required:focus ~ label, .inputMaterial:valid ~ label {
+  top: -8px;
+  font-size: 14px;
+  color: $brand-one;
+}
+
+
+/* active state */
+//.inputMaterial[type="email"] {
+//  &:focus:invalid {
+//    & ~ label {
+//      top: -8px;
+//      font-size: 14px;
+//      color: red;
+//    }
+//  }
+//}
+
+.inputMaterial.optional ~ label {
+  top: 10px;
+}
+
+/* BOTTOM BARS ================================= */
+.bar {
+  position: relative;
+  display: block;
+  width: 100%;
+}
+
+.bar:before, .bar:after {
+  content: '';
+  height: 2px;
+  width: 0;
+  bottom: 1px;
+  position: absolute;
+  background: $brand-one;
+  transition: 0.2s ease all;
+  -moz-transition: 0.2s ease all;
+  -webkit-transition: 0.2s ease all;
+}
+
+.bar:before {
+  left: 50%;
+}
+
+.bar:after {
+  right: 50%;
+}
+
+/* active state */
+.inputMaterial:focus ~ .bar:before, .inputMaterial:focus ~ .bar:after {
+  width: 50%;
+}
+
+/* active state */
+.inputMaterial:focus ~ .highlight {
+  -webkit-animation: inputHighlighter 0.3s ease;
+  -moz-animation: inputHighlighter 0.3s ease;
+  animation: inputHighlighter 0.3s ease;
+}
+
+/* ANIMATIONS ================ */
+@-webkit-keyframes inputHighlighter {
+  from {
+    background: #5264AE;
+  }
+  to {
+    width: 0;
+    background: transparent;
+  }
+}
+
+@-moz-keyframes inputHighlighter {
+  from {
+    background: #5264AE;
+  }
+  to {
+    width: 0;
+    background: transparent;
+  }
+}
+
+@keyframes inputHighlighter {
+  from {
+    background: #5264AE;
+  }
+  to {
+    width: 0;
+    background: transparent;
+  }
+}
+
+.select-style {
+
+  border-radius: 3px;
+  overflow: hidden;
+  select {
+    border: 1px solid #ccc !important;
+  }
+  @media only screen and (min-width: 750px) {
+    /*  width: 50%; */
+  }
+}
+
+.select-style select {
+  padding: 5px 8px;
+  width: 100%;
+  border: none;
+  color: $brand-one;
+
+}
+
+.select-style select:focus {
+  outline: none;
+}
+
+.label label {
+  position: relative;
+}
+
+.select-style.label {
+  label {
+    margin-bottom: 10px;
+    display: inline-block;
+  }
+}
+
+input[type="checkbox"] {
+  width: 20px; /*Desired width*/
+  height: 20px; /*Desired height*/
+  cursor: pointer;
+  & ~ label {
+    top: -5px !important;
+  }
+}

@@ -1,0 +1,231 @@
+//GENERAL DRAW STYLES
+.block.draw {
+  flex-direction: column;
+  text-align: center;
+  width: 30%;
+  min-width: 250px;
+  display: inline-flex;
+  justify-content: space-between;
+  flex: 1 1 300px;
+
+  @media only screen and (max-width: 1000px) {
+    width: 100%;
+  }
+  & > div {
+    padding: 1rem;
+
+  }
+  .inner_top {
+    padding: 1rem;
+  }
+  .inner_mid {
+    padding: 1rem;
+  }
+  .inner_bottom {
+    padding: 1rem;
+  }
+  & .text-left {
+    text-align: left;
+  }
+}
+
+//JUST FOR THE HOME PANEL
+.block.home {
+  @media only screen and (max-width: 1000px) {
+    width: 100%;
+    flex-direction: row-reverse;
+    flex-wrap: wrap;
+    margin-bottom: 0.5rem;
+  }
+  *:not(a) {
+    margin: 0;
+  }
+  & > div {
+    display: inherit;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    @media only screen and (max-width: 1000px) {
+      width: 29%;
+    }
+    @media only screen and (max-width: 750px) {
+      width: 100%;
+    }
+  }
+  .inner_top {
+    background-color: $white;
+    h4 {
+      color: $brand-one;
+    }
+    h1 {
+      color: $brand-one;
+    }
+    a {
+      color: $black;
+    }
+    @media only screen and (min-width: 1000px) {
+      flex: 1 1 25%;
+
+    }
+    @media only screen and (max-width: 1000px) {
+      flex: 1 1 50%;
+      width: 50%;
+      order: 3;
+      border: 1px solid $brand-one;
+    }
+    @media only screen and (max-width: 600px) {
+      flex: 1 1 100%;
+      width: 100%;
+      order: 1;
+    }
+  }
+  .inner_mid {
+    background: linear-gradient(to right, rgba(27, 159, 214, 0.8) 0%, rgba(27, 159, 214, 0.8) 100%), url("../img/draw-image.jpg") center center / cover no-repeat;
+    h3 {
+    }
+    * {
+      color: $white;
+    }
+    .verses {
+      img {
+        display: inline-block;
+        max-width: 100px;
+      }
+      p, h1, h2, h3, h4, h5, h6 {
+        display: inline-block;
+      }
+    }
+    @media only screen and (min-width: 1000px) {
+      flex: 1 1 45%;
+
+    }
+    @media only screen and (max-width: 1000px) {
+      flex: 1 1 50%;
+      width: 50%;
+      order: 2;
+    }
+    @media only screen and (max-width: 600px) {
+      flex: 1 1 100%;
+      width: 100%;
+      order: 2;
+    }
+
+  }
+  .inner_bottom {
+
+    background-color: $white;
+    *:not(a) {
+      color: $black;
+    }
+    @media only screen and (min-width: 1000px) {
+      flex: 1 1 30%;
+    }
+    @media only screen and (max-width: 1000px) {
+      flex: 1 1 100%;
+      width: 100%;
+      order: 1;
+    }
+    @media only screen and (max-width: 600px) {
+      order: 3;
+
+    }
+  }
+}
+
+//STEP ONE
+.block.step-one {
+  flex-direction: row;
+  .inner_top, .inner_mid, .inner_bottom {
+    display: inherit;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    @media only screen and (max-width: 1000px) {
+      padding: 0 1rem;
+    }
+  }
+  .inner_top {
+    @media only screen and (min-width: 1000px) {
+      flex: 1 1 250px;
+
+    }
+  }
+  .inner_mid {
+    @media only screen and (min-width: 1000px) {
+      flex: 1 1 400px;
+    }
+    h2 {
+      color: $brand-one;
+      width: 100%;
+    }
+    input[type=number] {
+      width: 130px;
+      color: $white;
+    }
+    .options-wrap {
+      width: 100%;
+    }
+  }
+  .inner_bottom {
+    @media only screen and (min-width: 1000px) {
+      flex: 1 1 250px;
+    }
+  }
+}
+
+//STEP TWO
+.block.step-two {
+  form {
+    margin-top: 0.5rem;
+
+  }
+}
+
+//STEP THREE
+.block.step-three {
+  .embed-container {
+    flex: 1 1 80%;
+    @media only screen and (max-width: 1000px) {
+      min-height: 700px;
+    }
+  }
+  .inner {
+    flex: 1 1 20%;
+    border-top: 1px solid $brand-one;
+  }
+
+}
+
+//STEP FOUR
+.block.step-four {
+  & > div {
+    flex: 1 1 30%;
+  }
+  .inner_top {
+
+  }
+  .inner_mid {
+    display: inherit;
+    flex-direction: column;
+    .social {
+      margin-bottom: 1rem;
+      button {
+        background: $brand-one;
+        padding: 0.5rem;
+        border-radius: 60%;
+        &:before {
+          color: $white;
+        }
+      }
+    }
+    hr {
+      margin: auto auto 0 auto;
+      width: 90%;
+      justify-self: center;
+    }
+  }
+  .inner_bottom {
+  }
+}

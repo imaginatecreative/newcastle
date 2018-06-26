@@ -1,0 +1,333 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat:400,700');
+
+// PX to REM - Usage: font-size: rem(37px);
+@function rem($px, $base: $base-font-size) {
+  @return ($px / $base) * 1rem;
+}
+
+$white: #ffffff;
+$gray: #C0C0C0;
+$darkgray: #797979;
+$black: #2b2b2b;
+
+$brand-one: #1B9FD6;
+$brand-two: #A1DAF8;
+$brand-three: #0069B4;
+$brand-four: #41C0F0;
+
+$brand-five: #FFE082;
+$brand-six: #F7A700;
+$brand-seven: #F08300;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*------------------------------------*\
+    # Simple Typography Settings
+\*------------------------------------*/
+
+// Font Family
+$font-family: Montserrat, sans-serif;
+$header-font-family: "Montserrat", sans-serif;
+
+// Base Font for HTML
+$base-font-size: 18px;
+
+// Paragraph Styles
+$paragraph-color: #505050;
+$paragraph-size: rem(15px);
+$paragraph-line-height: 1.5em;
+$paragraph-margin: 10px;
+
+// Header Styles
+$header-color: #000000;
+$header-size: rem(45px);
+$header-line-height: 1.25em;
+$header-margin: $paragraph-margin * 1.2;
+
+// Blockquote Styles
+$blockquote-color: #505050;
+$blockquote-size: rem(26px);
+$blockquote-line-height: 1.5em;
+$blockquote-margin: 0;
+
+// Links
+$link-color: #4eaff6;
+
+// hr
+$hr-margin: 30px;
+
+// Type Misc
+$font-weight-bold: 600;
+$border-color: #DADADA;
+
+/*------------------------------------*\
+    # Type
+\*------------------------------------*/
+
+// Make type normal across browsers
+*, html, body {
+  font-size: $base-font-size;
+  font-family: $font-family;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-text-size-adjust: 100%;
+  -ms-text-size-adjust: 100%;
+  font-weight: 400;
+}
+
+// Headers
+h1, h2, h3, h4, h5, h6 {
+  margin: $header-margin 0 $header-margin 0;
+  color: $header-color;
+  font-family: $header-font-family;
+  line-height: $header-line-height;
+  font-weight: 700;
+}
+
+// Heading One Styles
+//
+// Hero Text
+//
+// Weight: 1
+//
+// Markup:
+// <h1>Heading One</h1>
+//
+// Styleguide typography.heading-one
+h1 {
+  font-size: $header-size * 1.2;
+  text-transform: uppercase;
+  strong {
+    font-size: $header-size * 1.2;
+    font-weight: 800;
+  }
+  @media only screen and (max-width: 1000px) {
+    font-size: $header-size / 1.2;
+  }
+  @media only screen and (max-width: 750px) {
+    font-size: $header-size / 1.5;
+  }
+}
+
+//h1 + p,
+//h1 + ul li,
+//h1 + ol li,
+//h1 + ol + p,
+
+// Heading Two Styles
+//
+// Hero Text
+//
+// Weight: 2
+//
+// Markup:
+// <h2>Heading Two</h2>
+//
+// Styleguide typography.heading-two
+h2 {
+  font-size: $header-size / 1.4;
+  text-transform: uppercase;
+  font-weight: 400;
+
+  strong {
+    font-size: $header-size / 1.4;
+    font-weight: 800;
+
+  }
+  & + p {
+    font-size: $header-size / 2.2;
+    margin: $header-margin 0 $header-margin * 1.2 0;
+
+  }
+  @media only screen and (max-width: 1200px) {
+    font-size: $header-size / 1.6;
+
+  }
+}
+
+// Heading Three Styles
+//
+// Smaller Sub Heading Text
+//
+// Weight: 3
+//
+// Markup:
+// <h3>Heading Three</h3>
+//
+// Styleguide typography.heading-three
+h3, h3 span {
+  font-size: $header-size / 1.5;
+  font-weight: 400;
+  text-transform: uppercase;
+
+  strong {
+    font-size: $header-size / 1.5;
+    font-weight: 800;
+
+  }
+}
+
+// Heading Four Styles
+//
+// Heading Text
+//
+// Weight: 4
+//
+// Markup:
+// <h4>Heading Four</h4>
+//
+// Styleguide typography.heading-four
+h4 {
+  font-size: $header-size / 1.9;
+  font-weight: 400;
+  text-transform: uppercase;
+
+  a, strong, span {
+    font-size: $header-size / 1.9;
+    font-weight: 800;
+  }
+}
+
+// Heading Text
+//
+// Weight: 5
+//
+// Markup:
+// <h5>Heading Five</h5>
+//
+// Styleguide typography.heading-five
+h5 {
+  font-size: $header-size / 2;
+  font-weight: 400;
+
+  strong {
+    font-size: $header-size / 2;
+    font-weight: 800;
+  }
+}
+
+// Heading Six Styles
+//
+// Smallest Heading Text
+//
+// Weight: 6
+//
+// Markup:
+// <h6>Heading Six</h6>
+//
+// Styleguide typography.heading-six
+h6, h6 a {
+  font-size: $header-size / 3.5;
+  font-weight: 400;
+  strong {
+    font-size: $header-size / 3.5;
+    font-weight: 800;
+  }
+}
+
+// Paragraphs
+p {
+  margin-top: $paragraph-margin;
+  font-size: $paragraph-size;
+  line-height: $paragraph-line-height;
+  color: $paragraph-color;
+  margin-bottom: 10px;
+
+  &:first-of-type {
+    margin-top: 0;
+  }
+}
+
+// Links
+a {
+  color: $link-color;
+  text-decoration: none;
+
+  &:hover {
+    color: darken($link-color, 10%);
+  }
+}
+
+// Lists
+ul, ol {
+  margin: $paragraph-margin 0 0 20px;
+
+  li {
+    margin-top: 10px;
+    line-height: $paragraph-line-height;
+    color: $paragraph-color;
+    font-size: $paragraph-size;
+
+  }
+
+  ul, ol {
+    margin-top: 0;
+  }
+}
+

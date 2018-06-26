@@ -1,0 +1,16 @@
+/* club specifci styles */
+html.everton {
+
+  nav .fas::before {
+    content: '';
+  }
+
+  header.block.side_bar {
+    ul {
+      li {
+        width: 100%;
+      }
+    }
+  }
+
+}

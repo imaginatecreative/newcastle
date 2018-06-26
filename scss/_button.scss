@@ -1,0 +1,142 @@
+button{
+  border:none;
+  background-image:none;
+  background-color:transparent;
+  -webkit-box-shadow: none;
+  -moz-box-shadow: none;
+  box-shadow: none;
+  &:active{
+    outline: none;
+  }
+  &:hover{
+    outline: none;
+  }
+
+}
+.button-primary, input[type=submit] {
+  padding: 10px 19px;
+  display: inline-block;
+  font-size: $paragraph-size;
+  font-weight: 900;
+  text-transform: uppercase;
+  cursor: pointer;
+  letter-spacing: 1px;
+  border-radius: 500px;
+  transition-property: background-color;
+  transition-duration: 0.2s;
+  transition-timing-function: ease-in-out;
+  background: $brand-one;
+  margin: 0.5rem 0 0 0;
+  border: none;
+  color: $white;
+
+  &:hover {
+    background-color: $brand-two;
+    color: $white;
+    outline: none;
+
+  }
+  &:active,&.focus {
+    background-color: $brand-two;
+    color: $white;
+    outline: none;
+
+  }
+
+  &:focus {
+    background-color: $brand-six;
+    color: $white;
+    outline: none;
+  }
+  @media only screen and (max-width: 768px) {
+    padding: 15px 25px;
+  }
+
+}
+
+input[type=submit] {
+  width: auto;
+  float: right;
+  border: none;
+}
+
+input[type=number] {
+  width: 100%;
+  color: $white;
+}
+
+::-webkit-input-placeholder { /* Chrome/Opera/Safari */
+  color: $white;
+
+}
+
+::-moz-placeholder { /* Firefox 19+ */
+  color: $white;
+}
+
+:-ms-input-placeholder { /* IE 10+ */
+  color: $white;
+}
+
+:-moz-placeholder { /* Firefox 18- */
+  color: $white;
+}
+
+.button-primary.choices {
+  background: $grey;
+  margin: 0.5rem 0 0 0;
+  border: none;
+  font-size: $paragraph-size;
+  &:hover {
+    background-color: $brand-one;
+    color: $white;
+  }
+  &:active,&.focus {
+    background-color: $brand-one;
+    color: $white;
+  }
+
+  &:focus {
+    background-color: $brand-one;
+    color: $white;
+    outline: none;
+  }
+}
+.button-secondary{
+  padding: 10px 20px;
+  display: inline-block;
+  font-size: $paragraph-size;
+  font-weight: 900;
+  text-transform: uppercase;
+  cursor: pointer;
+  letter-spacing: 1px;
+  border-radius: 500px;
+  transition-property: background-color;
+  transition-duration: 0.2s;
+  transition-timing-function: ease-in-out;
+  margin: 0.5rem 0 0 0;
+  color: $brand-one;
+  border: 1px solid $brand-one;
+
+  &:hover {
+    background-color: $brand-one;
+    color: $white;
+    outline: none;
+
+  }
+  &:active {
+    background-color: $brand-two;
+    color: $white;
+    outline: none;
+
+  }
+
+  &:focus {
+    background-color: $brand-six;
+    color: $white;
+    outline: none;
+  }
+  @media only screen and (max-width: 768px) {
+    padding: 15px 25px;
+  }
+}
