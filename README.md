@@ -9,6 +9,6 @@ Please download the site, ensure you have node.js & gulp installed, then using t
 The Styles are in SASS and require a preprocessor, the gulp file included handles this, if using any other method, ensure auto prefixer is applied to support legacy broswers
 
 ### Hosted on github pages
-Template site: [HTML Prototype](https://imaginatecreative.github.io/5050-lottery/)   
+Template site: [HTML Prototype](https://imaginatecreative.github.io/newcastle/)   
 Desktop : [XD Prototype](https://xd.adobe.com/view/0a6f8619-b032-4805-47aa-d4124d8b24d3-7c5e/)  
 Mobile : [XD Prototype](https://xd.adobe.com/view/9c77c23f-6cab-4497-76f9-f51248099a73-ea46/)
