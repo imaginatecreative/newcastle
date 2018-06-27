@@ -23,6 +23,12 @@ form {
       width: 100%;
     }
   }
+  &.three {
+    width: 33%;
+    @media only screen and (max-width: 600px) {
+      width: 100%;
+    }
+  }
 }
 
 .inputMaterial {
@@ -77,19 +83,18 @@ label {
   -webkit-transition: 0.2s ease all;
 }
 
-input.inputMaterial.not-required ~ label{
+input.inputMaterial.not-required ~ label {
   left: 5px;
   top: 10px;
 }
 
 ///* active state */
 
-.not-empty,.inputMaterial:focus ~ label,.inputMaterial.not-required:focus ~ label, .inputMaterial:valid ~ label {
+.not-empty, .inputMaterial:focus ~ label, .inputMaterial.not-required:focus ~ label, .inputMaterial:valid ~ label {
   top: -8px;
   font-size: 14px;
   color: $brand-one;
 }
-
 
 /* active state */
 //.inputMaterial[type="email"] {
