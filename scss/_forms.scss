@@ -83,6 +83,13 @@ label {
   -webkit-transition: 0.2s ease all;
 }
 
+.tabbed {
+  label {
+    top: 0;
+    left: 0;
+  }
+}
+
 input.inputMaterial.not-required ~ label {
   left: 5px;
   top: 10px;
@@ -224,3 +231,7 @@ input[type="checkbox"] {
     top: -5px !important;
   }
 }
+
+
+
+
