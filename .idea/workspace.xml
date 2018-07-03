@@ -3,9 +3,9 @@
   <component name="ChangeListManager">
     <list default="true" id="894c8ce1-43ad-4d9d-9b1d-a595fbbc44f9" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/js/main.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/main.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/main.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/main.min.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/scss/_button.scss" beforeDir="false" afterPath="$PROJECT_DIR$/scss/_button.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/scss/_forms.scss" beforeDir="false" afterPath="$PROJECT_DIR$/scss/_forms.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sub-pages/form-elements.html" beforeDir="false" afterPath="$PROJECT_DIR$/sub-pages/form-elements.html" afterDir="false" />
     </list>
     <ignored path=".idea/dataSources.local.xml" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -64,8 +64,8 @@
           <file leaf-file-name="form-elements.html" pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/sub-pages/form-elements.html">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="557">
-                  <caret line="161" column="78" selection-start-line="161" selection-start-column="78" selection-end-line="161" selection-end-column="78" />
+                <state relative-caret-position="411">
+                  <caret line="153" column="47" lean-forward="true" selection-start-line="153" selection-start-column="47" selection-end-line="153" selection-end-column="47" />
                 </state>
               </provider>
             </entry>
@@ -167,15 +167,6 @@
               </provider>
             </entry>
           </file>
-          <file leaf-file-name="_reset.scss" pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/scss/_reset.scss">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="1845">
-                  <caret line="123" column="32" selection-start-line="123" selection-start-column="32" selection-end-line="123" selection-end-column="32" />
-                </state>
-              </provider>
-            </entry>
-          </file>
           <file leaf-file-name="_hero.scss" pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/scss/_hero.scss">
               <provider selected="true" editor-type-id="text-editor">
@@ -197,17 +188,29 @@
           <file leaf-file-name="_forms.scss" pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/scss/_forms.scss">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="328">
-                  <caret line="163" column="5" selection-start-line="163" selection-start-column="2" selection-end-line="163" selection-end-column="5" />
+                <state relative-caret-position="118">
+                  <caret line="77" column="22" lean-forward="true" selection-start-line="77" selection-start-column="22" selection-end-line="77" selection-end-column="22" />
                 </state>
               </provider>
             </entry>
           </file>
-          <file leaf-file-name="main.js" pinned="false" current-in-tab="true">
+          <file leaf-file-name="_button.scss" pinned="false" current-in-tab="true">
+            <entry file="file://$PROJECT_DIR$/scss/_button.scss">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="585">
+                  <caret line="80" column="3" lean-forward="true" selection-start-line="80" selection-start-column="3" selection-end-line="80" selection-end-column="3" />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="main.js" pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/js/main.js">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="-1239">
-                  <caret line="14" column="28" lean-forward="true" selection-start-line="14" selection-start-column="28" selection-end-line="14" selection-end-column="28" />
+                <state relative-caret-position="495">
+                  <caret line="146" lean-forward="true" selection-start-line="146" selection-end-line="146" />
+                  <folding>
+                    <element signature="e#47#4848#0" />
+                  </folding>
                 </state>
               </provider>
             </entry>
@@ -244,6 +247,13 @@
       <find>og:image</find>
       <find>sub-page</find>
       <find>moz</find>
+      <find>label</find>
+      <find>pla</find>
+      <find>colo</find>
+      <find>color</find>
+      <find>half</find>
+      <find>tabbed</find>
+      <find>tabb</find>
     </findStrings>
     <replaceStrings>
       <replace />
@@ -284,7 +294,6 @@
         <option value="$PROJECT_DIR$/scss/_clubs.scss" />
         <option value="$PROJECT_DIR$/scss/_hero.scss" />
         <option value="$PROJECT_DIR$/scss/_footer.scss" />
-        <option value="$PROJECT_DIR$/scss/_button.scss" />
         <option value="$PROJECT_DIR$/scss/_draw-styles.scss" />
         <option value="$PROJECT_DIR$/scss/_side-bar.scss" />
         <option value="$PROJECT_DIR$/scss/_global.scss" />
@@ -298,10 +307,11 @@
         <option value="$PROJECT_DIR$/sub-pages/account.html" />
         <option value="$PROJECT_DIR$/sub-pages/second-chance.html" />
         <option value="$PROJECT_DIR$/sub-pages/confirm.html" />
-        <option value="$PROJECT_DIR$/scss/_forms.scss" />
         <option value="$APPLICATION_CONFIG_DIR$/scratches/scratch_1.html" />
         <option value="$PROJECT_DIR$/js/main.js" />
         <option value="$PROJECT_DIR$/sub-pages/form-elements.html" />
+        <option value="$PROJECT_DIR$/scss/_button.scss" />
+        <option value="$PROJECT_DIR$/scss/_forms.scss" />
       </list>
     </option>
   </component>
@@ -324,7 +334,7 @@
   <component name="NodeModulesDirectoryManager">
     <handled-path value="$PROJECT_DIR$/node_modules" />
   </component>
-  <component name="ProjectFrameBounds">
+  <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="-3840" />
     <option name="y" value="22" />
     <option name="width" value="1920" />
@@ -335,6 +345,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -356,7 +367,6 @@
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -525,12 +535,14 @@
       <workItem from="1530005307050" duration="1961000" />
       <workItem from="1530026436799" duration="810000" />
       <workItem from="1530113220700" duration="753000" />
-      <workItem from="1530181048409" duration="1933000" />
+      <workItem from="1530181048409" duration="2270000" />
+      <workItem from="1530262957076" duration="1012000" />
+      <workItem from="1530612464277" duration="1039000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="137262000" />
+    <option name="totallyTimeSpent" value="139650000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-3840" y="22" width="1920" height="1178" extended-state="6" />
@@ -539,11 +551,11 @@
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" />
       <window_info anchor="bottom" id="Database Changes" order="8" show_stripe_button="false" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.17013232" />
+      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.17013232" />
       <window_info anchor="bottom" id="Version Control" order="7" />
       <window_info anchor="bottom" id="Terminal" order="7" weight="0.33931947" />
-      <window_info id="Gulp" order="2" sideWeight="0.31321186" side_tool="true" visible="true" weight="0.13312034" />
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.68678814" visible="true" weight="0.13312034" />
+      <window_info id="Gulp" order="2" sideWeight="0.31548974" side_tool="true" visible="true" weight="0.13365282" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.68451023" visible="true" weight="0.13365282" />
       <window_info anchor="bottom" id="Docker" order="8" show_stripe_button="false" />
       <window_info anchor="right" id="Database" order="3" />
       <window_info anchor="bottom" id="Find" order="1" />
@@ -782,13 +794,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/scss/_button.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="420">
-          <caret line="28" column="23" lean-forward="true" selection-start-line="28" selection-start-column="23" selection-end-line="28" selection-end-column="23" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/scss/_typography.scss">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="3690">
@@ -800,13 +805,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1845">
           <caret line="123" column="32" selection-start-line="123" selection-start-column="32" selection-end-line="123" selection-end-column="32" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/scss/_hero.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="315">
-          <caret line="21" column="5" selection-start-line="21" selection-start-column="5" selection-end-line="21" selection-end-column="5" />
         </state>
       </provider>
     </entry>
@@ -918,24 +916,41 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/scss/_forms.scss">
+    <entry file="file://$PROJECT_DIR$/scss/_hero.scss">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="328">
-          <caret line="163" column="5" selection-start-line="163" selection-start-column="2" selection-end-line="163" selection-end-column="5" />
+        <state relative-caret-position="315">
+          <caret line="21" column="5" selection-start-line="21" selection-start-column="5" selection-end-line="21" selection-end-column="5" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/js/main.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1239">
-          <caret line="14" column="28" lean-forward="true" selection-start-line="14" selection-start-column="28" selection-end-line="14" selection-end-column="28" />
+        <state relative-caret-position="495">
+          <caret line="146" lean-forward="true" selection-start-line="146" selection-end-line="146" />
+          <folding>
+            <element signature="e#47#4848#0" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/sub-pages/form-elements.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="557">
-          <caret line="161" column="78" selection-start-line="161" selection-start-column="78" selection-end-line="161" selection-end-column="78" />
+        <state relative-caret-position="411">
+          <caret line="153" column="47" lean-forward="true" selection-start-line="153" selection-start-column="47" selection-end-line="153" selection-end-column="47" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/scss/_forms.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="118">
+          <caret line="77" column="22" lean-forward="true" selection-start-line="77" selection-start-column="22" selection-end-line="77" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/scss/_button.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="585">
+          <caret line="80" column="3" lean-forward="true" selection-start-line="80" selection-start-column="3" selection-end-line="80" selection-end-column="3" />
         </state>
       </provider>
     </entry>
