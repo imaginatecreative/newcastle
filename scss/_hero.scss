@@ -1,5 +1,4 @@
 .block.hero {
-  padding: 2rem 6rem 2rem 2rem;
   width: 60%;
   display: inline-flex;
   justify-content: flex-end;
@@ -19,16 +18,36 @@
     text-align: right;
   }
 
-  * {
+  .slider {
     width: 100%;
-    color: $white;
-  }
-  h1 {
-    margin-bottom: 0;
+    height: 100%;
+    .slick-list, .slick-track {
+      height: 100%;
+      .slick-slide{
+        &>div{
+          height: 100%;
+        }
+      }
+    }
+    .inner_slide {
+      padding: 2rem 6rem 2rem 2rem;
+      height: 100%;
+      display: inline-flex!important;
+      justify-content: flex-end;
+      align-items: flex-end;
+      * {
+        width: 100%;
+        color: $white;
+      }
+      h1 {
+        margin-bottom: 0;
 
+      }
+      h4 {
+        margin-bottom: 0;
+        text-transform: inherit;
+      }
+    }
   }
-  h4 {
-    margin-bottom: 0;
-    text-transform: inherit;
-  }
+
 }

@@ -2,6 +2,7 @@
 
     $.fn.autoTab = function() {
 
+<<<<<<< HEAD
         autoTabOn = true; // yes, it's global. If you turn off auto tabbing on one input, you turn it off for all
         var autoTabbedInputs = this.find('input');
         var almostTabbedInputs = autoTabbedInputs.not(':last-child'); // note we don't attach tabbing event to the last of an input group. If you tab out of there, you have a reason to
@@ -132,6 +133,16 @@
         }
     })
 
+=======
+    $('.slider').slick({
+        slidesToScroll: 1,
+        autoplay: true,
+        autoplaySpeed: 5000,
+        arrows:false,
+        dots:false,
+        fade:true,
+    });
+>>>>>>> feature/carousel
 
 
 })(jQuery); // Fully reference jQuery after this point.
