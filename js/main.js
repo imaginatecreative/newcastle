@@ -1,8 +1,7 @@
 (function ($) {
 
-    $.fn.autoTab = function() {
+    $.fn.autoTab = function () {
 
-<<<<<<< HEAD
         autoTabOn = true; // yes, it's global. If you turn off auto tabbing on one input, you turn it off for all
         var autoTabbedInputs = this.find('input');
         var almostTabbedInputs = autoTabbedInputs.not(':last-child'); // note we don't attach tabbing event to the last of an input group. If you tab out of there, you have a reason to
@@ -12,14 +11,14 @@
         var inputField = false;
 
         // init
-        var init = function() {
+        var init = function () {
             detectKeyDown();
             detectKeyUp();
         }
 
         // keydown detection, hijack it if it's in the fields we're looking for
-        var detectKeyDown = function() {
-            autoTabbedInputs.on('keydown',function(ev){
+        var detectKeyDown = function () {
+            autoTabbedInputs.on('keydown', function (ev) {
                 // the field that you're in when you keydown might not be the field you're in when you keyup
                 inputField = this;
                 // detect keystroke in the fields
@@ -68,8 +67,8 @@
         }
 
         // entering text into auto-tabbed fields
-        var detectKeyUp = function() {
-            almostTabbedInputs.on('keyup',function(ev){
+        var detectKeyUp = function () {
+            almostTabbedInputs.on('keyup', function (ev) {
                 // if auto tabbing is off, bug out now
                 if (!autoTabOn) {
                     return;
@@ -100,11 +99,11 @@
         }
 
         // detect if a field has hit max chars
-        var hasHitMaxChars = function(el) {
+        var hasHitMaxChars = function (el) {
             var elObj = $(el);
             var maxFieldLength = elObj.attr('maxlength') || elObj.attr('size');
             var valueLength = el.value.length;
-            if (valueLength>=maxFieldLength) {
+            if (valueLength >= maxFieldLength) {
                 return true;
             }
             return false;
@@ -122,7 +121,7 @@
 
 // enable toggle
     var toggle = $('#autotab-toggle');
-    toggle.click(function(ev){
+    toggle.click(function (ev) {
         ev.preventDefault();
         if (toggle.hasClass('on')) {
             autoTabOn = false;
@@ -133,16 +132,15 @@
         }
     })
 
-=======
+
     $('.slider').slick({
         slidesToScroll: 1,
         autoplay: true,
         autoplaySpeed: 5000,
-        arrows:false,
-        dots:false,
-        fade:true,
+        arrows: false,
+        dots: false,
+        fade: true,
     });
->>>>>>> feature/carousel
 
 
 })(jQuery); // Fully reference jQuery after this point.
