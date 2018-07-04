@@ -150,12 +150,22 @@
                     <div class="group label">
                         <label class=" control-label" for="city">Date of </label>
                         <span class="visuallyhidden">Please enter the date </span>
-                        <input id="date" name="date" type="date" placeholder="date" class="inputMaterial" max="2999-12-31"
+                        <input id="date" name="date" type="date" placeholder="date" class="inputMaterial"
+                               max="2999-12-31"
                                required="">
                         <span class="highlight"></span>
                         <span class="bar"></span>
                     </div>
 
+
+                    <div class="group label tabbed">
+                        <label class=" control-label" for="city">Date of Birth</label>
+                        <div class="autotabbed">
+                                <input type="text" maxlength="2" size="2" placeholder="dd"/> /
+                                <input type="text" maxlength="2" size="2" placeholder="mm"/> /
+                                <input type="text" maxlength="4" size="4" placeholder="yyyy"/>
+                            </div>
+                    </div>
 
                     <!-- password input-->
                     <div class="group">
@@ -205,7 +215,6 @@
 
                     <a class="button-secondary">Secondary Button</a>
                     <a class="button-primary">Primary Button</a>
-
 
                 </fieldset>
             </form>

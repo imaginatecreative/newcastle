@@ -1,6 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
+<<<<<<< HEAD
+    <list default="true" id="894c8ce1-43ad-4d9d-9b1d-a595fbbc44f9" name="Default" comment="" />
+=======
     <list default="true" id="894c8ce1-43ad-4d9d-9b1d-a595fbbc44f9" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/css/main.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/main.min.css" afterDir="false" />
@@ -10,6 +13,7 @@
       <change beforePath="$PROJECT_DIR$/scss/_page-states.scss" beforeDir="false" afterPath="$PROJECT_DIR$/scss/_page-states.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/scss/main.scss" beforeDir="false" afterPath="$PROJECT_DIR$/scss/main.scss" afterDir="false" />
     </list>
+>>>>>>> feature/carousel
     <ignored path=".idea/dataSources.local.xml" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -71,7 +75,24 @@
           </file>
           <file leaf-file-name="form-elements.html" pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/sub-pages/form-elements.html">
+<<<<<<< HEAD
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="666">
+                  <caret line="132" column="49" selection-start-line="132" selection-start-column="49" selection-end-line="132" selection-end-column="49" />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="scratch_1.html" pinned="false" current-in-tab="false">
+            <entry file="file://$APPLICATION_CONFIG_DIR$/scratches/scratch_1.html">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="165">
+                  <caret line="11" selection-end-line="11" />
+                </state>
+              </provider>
+=======
               <provider selected="true" editor-type-id="text-editor" />
+>>>>>>> feature/carousel
             </entry>
           </file>
           <file leaf-file-name="step-three.html" pinned="false" current-in-tab="false">
@@ -153,6 +174,8 @@
               </provider>
             </entry>
           </file>
+<<<<<<< HEAD
+=======
           <file leaf-file-name="_draw-styles.scss" pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/scss/_draw-styles.scss">
               <provider selected="true" editor-type-id="text-editor">
@@ -162,6 +185,7 @@
               </provider>
             </entry>
           </file>
+>>>>>>> feature/carousel
           <file leaf-file-name="_side-bar.scss" pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/scss/_side-bar.scss">
               <provider selected="true" editor-type-id="text-editor">
@@ -183,8 +207,13 @@
           <file leaf-file-name="_page-states.scss" pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/scss/_page-states.scss">
               <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD
+                <state relative-caret-position="390">
+                  <caret line="26" column="5" selection-start-line="26" selection-start-column="5" selection-end-line="26" selection-end-column="5" />
+=======
                 <state relative-caret-position="45">
                   <caret line="3" column="16" selection-start-line="3" selection-start-column="16" selection-end-line="3" selection-end-column="16" />
+>>>>>>> feature/carousel
                 </state>
               </provider>
             </entry>
@@ -192,17 +221,42 @@
           <file leaf-file-name="_forms.scss" pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/scss/_forms.scss">
               <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD
+                <state relative-caret-position="373">
+                  <caret line="89" column="11" lean-forward="true" selection-start-line="89" selection-start-column="11" selection-end-line="89" selection-end-column="11" />
+=======
                 <state relative-caret-position="73">
                   <caret line="69" column="3" selection-start-line="69" selection-start-column="3" selection-end-line="69" selection-end-column="3" />
+>>>>>>> feature/carousel
                 </state>
               </provider>
             </entry>
           </file>
+<<<<<<< HEAD
+          <file leaf-file-name="_button.scss" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/scss/_button.scss">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="1200">
+                  <caret line="80" column="3" selection-start-line="80" selection-start-column="3" selection-end-line="80" selection-end-column="3" />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="main.js" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/js/main.js">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="495">
+                  <caret line="146" selection-start-line="146" selection-end-line="146" />
+                  <folding>
+                    <element signature="e#47#4848#0" />
+                  </folding>
+=======
           <file leaf-file-name="main.js" pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/js/main.js">
               <provider selected="true" editor-type-id="text-editor">
                 <state relative-caret-position="135">
                   <caret line="9" column="18" selection-start-line="9" selection-start-column="18" selection-end-line="9" selection-end-column="18" />
+>>>>>>> feature/carousel
                 </state>
               </provider>
             </entry>
@@ -238,6 +292,14 @@
       <find>E8345C</find>
       <find>og:image</find>
       <find>sub-page</find>
+      <find>moz</find>
+      <find>label</find>
+      <find>pla</find>
+      <find>colo</find>
+      <find>color</find>
+      <find>half</find>
+      <find>tabbed</find>
+      <find>tabb</find>
     </findStrings>
     <replaceStrings>
       <replace />
@@ -275,7 +337,6 @@
         <option value="$PROJECT_DIR$/scss/_typography.scss" />
         <option value="$PROJECT_DIR$/scss/_clubs.scss" />
         <option value="$PROJECT_DIR$/scss/_footer.scss" />
-        <option value="$PROJECT_DIR$/scss/_button.scss" />
         <option value="$PROJECT_DIR$/scss/_draw-styles.scss" />
         <option value="$PROJECT_DIR$/scss/_side-bar.scss" />
         <option value="$PROJECT_DIR$/scss/_global.scss" />
@@ -287,7 +348,10 @@
         <option value="$PROJECT_DIR$/sub-pages/account.html" />
         <option value="$PROJECT_DIR$/sub-pages/second-chance.html" />
         <option value="$PROJECT_DIR$/sub-pages/confirm.html" />
+        <option value="$APPLICATION_CONFIG_DIR$/scratches/scratch_1.html" />
+        <option value="$PROJECT_DIR$/js/main.js" />
         <option value="$PROJECT_DIR$/sub-pages/form-elements.html" />
+        <option value="$PROJECT_DIR$/scss/_button.scss" />
         <option value="$PROJECT_DIR$/scss/_forms.scss" />
         <option value="$PROJECT_DIR$/scss/main.scss" />
         <option value="$PROJECT_DIR$/scss/_main-pages.scss" />
@@ -328,7 +392,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -340,6 +403,8 @@
               <item name="newcastle" type="b2602c69:ProjectViewProjectNode" />
               <item name="newcastle" type="2a2b976b:PhpTreeStructureProvider$1" />
               <item name="js" type="2a2b976b:PhpTreeStructureProvider$1" />
+<<<<<<< HEAD
+=======
             </path>
             <path>
               <item name="newcastle" type="b2602c69:ProjectViewProjectNode" />
@@ -351,6 +416,7 @@
               <item name="newcastle" type="b2602c69:ProjectViewProjectNode" />
               <item name="newcastle" type="2a2b976b:PhpTreeStructureProvider$1" />
               <item name="scss" type="2a2b976b:PhpTreeStructureProvider$1" />
+>>>>>>> feature/carousel
             </path>
             <path>
               <item name="newcastle" type="b2602c69:ProjectViewProjectNode" />
@@ -361,11 +427,13 @@
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="com.intellij.ide.scratch.LRUPopupBuilder$2/Languages" value="HTML" />
     <property name="js-jscs-nodeInterpreter" value="C:\Program Files\nodejs\node.exe" />
     <property name="js.buildTools.gulp.gulp_package_dir" value="$PROJECT_DIR$/node_modules/gulp" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
@@ -527,12 +595,21 @@
       <workItem from="1529917420686" duration="4432000" />
       <workItem from="1530005307050" duration="1961000" />
       <workItem from="1530026436799" duration="810000" />
-      <workItem from="1530113220700" duration="376000" />
+      <workItem from="1530113220700" duration="753000" />
+      <workItem from="1530181048409" duration="2270000" />
+      <workItem from="1530262957076" duration="1012000" />
+      <workItem from="1530612464277" duration="1273000" />
+      <workItem from="1530619905397" duration="515000" />
+      <workItem from="1530626504595" duration="747000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
+<<<<<<< HEAD
+    <option name="totallyTimeSpent" value="141146000" />
+=======
     <option name="totallyTimeSpent" value="138104000" />
+>>>>>>> feature/carousel
   </component>
   <component name="ToolWindowManager">
     <frame x="-3840" y="22" width="1920" height="1178" extended-state="6" />
@@ -541,11 +618,16 @@
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" />
       <window_info anchor="bottom" id="Database Changes" order="8" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.17013232" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.17013232" />
       <window_info anchor="bottom" id="Version Control" order="7" />
       <window_info anchor="bottom" id="Terminal" order="7" weight="0.33931947" />
+<<<<<<< HEAD
+      <window_info active="true" id="Gulp" order="2" sideWeight="0.31663516" side_tool="true" visible="true" weight="0.13471779" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.68336487" visible="true" weight="0.13471779" />
+=======
       <window_info active="true" id="Gulp" order="2" sideWeight="0.31776765" side_tool="true" visible="true" weight="0.10010649" />
       <window_info content_ui="combo" id="Project" order="0" sideWeight="0.6822323" visible="true" weight="0.10010649" />
+>>>>>>> feature/carousel
       <window_info anchor="bottom" id="Docker" order="8" show_stripe_button="false" />
       <window_info anchor="right" id="Database" order="3" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
@@ -588,6 +670,33 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="editorHistoryManager">
+<<<<<<< HEAD
+    <entry file="file://$PROJECT_DIR$/steps/step-two.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="3720">
+          <caret line="248" column="14" selection-start-line="248" selection-start-column="14" selection-end-line="248" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/steps/step-three.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2205">
+          <caret line="147" column="14" selection-start-line="147" selection-start-column="14" selection-end-line="147" selection-end-column="14" />
+          <folding>
+            <element signature="n#style#0;n#iframe#0;n#div#0;n#div#1;n#div#0;n#section#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/steps/step-four.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2550">
+          <caret line="170" column="43" lean-forward="true" selection-start-line="170" selection-start-column="43" selection-end-line="170" selection-end-column="43" />
+        </state>
+      </provider>
+    </entry>
+=======
+>>>>>>> feature/carousel
     <entry file="file://$PROJECT_DIR$/sub-pages/account.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1680">
@@ -773,6 +882,8 @@
         </state>
       </provider>
     </entry>
+<<<<<<< HEAD
+=======
     <entry file="file://$PROJECT_DIR$/scss/_button.scss">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1230">
@@ -780,6 +891,7 @@
         </state>
       </provider>
     </entry>
+>>>>>>> feature/carousel
     <entry file="file://$PROJECT_DIR$/scss/_typography.scss">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="3690">
@@ -815,6 +927,23 @@
         </state>
       </provider>
     </entry>
+<<<<<<< HEAD
+    <entry file="file://$PROJECT_DIR$/scss/_page-states.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="390">
+          <caret line="26" column="5" selection-start-line="26" selection-start-column="5" selection-end-line="26" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2340">
+          <caret line="156" column="7" selection-start-line="156" selection-start-column="7" selection-end-line="158" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+=======
+>>>>>>> feature/carousel
     <entry file="file://$PROJECT_DIR$/steps/step-one.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="2265">
@@ -867,13 +996,49 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$APPLICATION_CONFIG_DIR$/scratches/scratch_1.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="165">
+          <caret line="11" selection-end-line="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/scss/_hero.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="315">
+          <caret line="21" column="5" selection-start-line="21" selection-start-column="5" selection-end-line="21" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/main.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="495">
+          <caret line="146" selection-start-line="146" selection-end-line="146" />
+          <folding>
+            <element signature="e#47#4848#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/scss/_button.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1200">
+          <caret line="80" column="3" selection-start-line="80" selection-start-column="3" selection-end-line="80" selection-end-column="3" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/sub-pages/form-elements.html">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/scss/_forms.scss">
       <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD
+        <state relative-caret-position="666">
+          <caret line="132" column="49" selection-start-line="132" selection-start-column="49" selection-end-line="132" selection-end-column="49" />
+=======
         <state relative-caret-position="73">
           <caret line="69" column="3" selection-start-line="69" selection-start-column="3" selection-end-line="69" selection-end-column="3" />
+>>>>>>> feature/carousel
         </state>
       </provider>
     </entry>
@@ -938,8 +1103,13 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/js/main.js">
       <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD
+        <state relative-caret-position="373">
+          <caret line="89" column="11" lean-forward="true" selection-start-line="89" selection-start-column="11" selection-end-line="89" selection-end-column="11" />
+=======
         <state relative-caret-position="135">
           <caret line="9" column="18" selection-start-line="9" selection-start-column="18" selection-end-line="9" selection-end-column="18" />
+>>>>>>> feature/carousel
         </state>
       </provider>
     </entry>
