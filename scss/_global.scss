@@ -117,58 +117,6 @@ body {
 }
 
 
-
-.ticker {
-  overflow: hidden;
-  position: relative;
-
-}
-
-.ticker .block {
-  position: absolute;
-  width: 100%;
-  height: 100%;
-  margin: 0;
-  line-height: 50px;
-  text-align: center;
-  /* Starting position */
-  transform: translateX(100%);
-  /* Apply animation to this element */
-  animation: example1 30s linear infinite;
-}
-
-/* Move it (define the animation) */
-@-moz-keyframes example1 {
-  0% {
-    -moz-transform: translateX(100%);
-  }
-  100% {
-    -moz-transform: translateX(-100%);
-  }
-}
-
-@-webkit-keyframes example1 {
-  0% {
-    -webkit-transform: translateX(100%);
-  }
-  100% {
-    -webkit-transform: translateX(-100%);
-  }
-}
-
-@keyframes example1 {
-  0% {
-    -moz-transform: translateX(100%); /* Firefox bug fix */
-    -webkit-transform: translateX(100%); /* Firefox bug fix */
-    transform: translateX(100%);
-  }
-  100% {
-    -moz-transform: translateX(-100%); /* Firefox bug fix */
-    -webkit-transform: translateX(-100%); /* Firefox bug fix */
-    transform: translateX(-100%);
-  }
-}
-
 /*
 * added as per Richard on freedcamp:
 * https://freedcamp.com/BD_SPort_BlG/5050_Lottery_jah/discussions/647385

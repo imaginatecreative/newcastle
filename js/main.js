@@ -130,8 +130,7 @@
             autoTabOn = true;
             $('#autotab-toggle').addClass('on');
         }
-    })
-
+    });
 
     $('.slider').slick({
         slidesToScroll: 1,
@@ -140,6 +139,16 @@
         arrows: false,
         dots: false,
         fade: true,
+    });
+
+    $('.ticker').slick({
+        slidesToShow: 5,
+        arrows: false,
+        dots: false,
+        autoplay: true,
+        autoplaySpeed: 0,
+        speed: 10000,
+        cssEase:'linear'
     });
 
 
