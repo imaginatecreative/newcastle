@@ -1,3 +1,13 @@
+.inner_wrapper.ticker{
+  z-index: 40;
+  position: relative;
+  .block{
+    z-index: 40;
+    position: relative;
+    text-align: center;
+
+  }
+}
 footer {
   position: relative;
   @media only screen and (min-width: 750px) {
