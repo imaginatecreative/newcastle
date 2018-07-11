@@ -6,11 +6,15 @@
   min-width: 250px;
   display: inline-flex;
   justify-content: space-between;
-  flex: 1 1 300px;
+
 
   @media only screen and (max-width: 1000px) {
     width: 100%;
   }
+  @media only screen and (max-width: 900px) {
+    flex: 1 1 50%;
+  }
+
   & > div {
     padding: 1rem;
 
