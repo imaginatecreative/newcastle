@@ -308,6 +308,9 @@ p {
 a {
   color: $link-color;
   text-decoration: none;
+  z-index: 20;
+  position: relative;
+  pointer-events: initial;
 
   &:hover {
     color: darken($link-color, 10%);
