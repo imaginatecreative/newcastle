@@ -1,7 +1,22 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="894c8ce1-43ad-4d9d-9b1d-a595fbbc44f9" name="Default" comment="" />
+    <list default="true" id="894c8ce1-43ad-4d9d-9b1d-a595fbbc44f9" name="Default" comment="">
+      <change beforePath="$PROJECT_DIR$/css/main.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/main.min.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/main.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/main.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/scss/_draw-styles.scss" beforeDir="false" afterPath="$PROJECT_DIR$/scss/_draw-styles.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/scss/_footer.scss" beforeDir="false" afterPath="$PROJECT_DIR$/scss/_footer.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/scss/_typography.scss" beforeDir="false" afterPath="$PROJECT_DIR$/scss/_typography.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/steps/step-four.html" beforeDir="false" afterPath="$PROJECT_DIR$/steps/step-four.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/steps/step-one.html" beforeDir="false" afterPath="$PROJECT_DIR$/steps/step-one.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/steps/step-three.html" beforeDir="false" afterPath="$PROJECT_DIR$/steps/step-three.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/steps/step-two.html" beforeDir="false" afterPath="$PROJECT_DIR$/steps/step-two.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sub-pages/account.html" beforeDir="false" afterPath="$PROJECT_DIR$/sub-pages/account.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sub-pages/confirm.html" beforeDir="false" afterPath="$PROJECT_DIR$/sub-pages/confirm.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sub-pages/form-elements.html" beforeDir="false" afterPath="$PROJECT_DIR$/sub-pages/form-elements.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sub-pages/second-chance.html" beforeDir="false" afterPath="$PROJECT_DIR$/sub-pages/second-chance.html" afterDir="false" />
+    </list>
     <ignored path=".idea/dataSources.local.xml" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -20,11 +35,11 @@
     <splitter split-orientation="horizontal" split-proportion="0.50400496">
       <split-first>
         <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-          <file leaf-file-name="index.html" pinned="false" current-in-tab="true">
+          <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/index.html">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="46">
-                  <caret line="188" column="10" lean-forward="true" selection-start-line="188" selection-start-column="10" selection-end-line="188" selection-end-column="10" />
+                <state relative-caret-position="1759">
+                  <caret line="226" selection-start-line="226" selection-end-line="226" />
                 </state>
               </provider>
             </entry>
@@ -32,8 +47,8 @@
           <file leaf-file-name="step-one.html" pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/steps/step-one.html">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="450">
-                  <caret line="214" selection-start-line="214" selection-end-line="214" />
+                <state relative-caret-position="243">
+                  <caret line="225" selection-start-line="225" selection-end-line="225" />
                 </state>
               </provider>
             </entry>
@@ -41,17 +56,17 @@
           <file leaf-file-name="step-two.html" pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/steps/step-two.html">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="279">
-                  <caret line="306" selection-start-line="306" selection-end-line="306" />
+                <state relative-caret-position="208">
+                  <caret line="318" selection-start-line="318" selection-end-line="318" />
                 </state>
               </provider>
             </entry>
           </file>
-          <file leaf-file-name="step-three.html" pinned="false" current-in-tab="false">
+          <file leaf-file-name="step-three.html" pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/steps/step-three.html">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="401">
-                  <caret line="207" selection-start-line="207" selection-end-line="207" />
+                <state relative-caret-position="236">
+                  <caret line="219" selection-start-line="219" selection-end-line="219" />
                 </state>
               </provider>
             </entry>
@@ -59,8 +74,8 @@
           <file leaf-file-name="step-four.html" pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/steps/step-four.html">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="192">
-                  <caret line="220" selection-start-line="220" selection-end-line="220" />
+                <state relative-caret-position="298">
+                  <caret line="139" lean-forward="true" selection-start-line="139" selection-end-line="139" />
                 </state>
               </provider>
             </entry>
@@ -68,8 +83,8 @@
           <file leaf-file-name="account.html" pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/sub-pages/account.html">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="293">
-                  <caret line="160" selection-start-line="160" selection-end-line="160" />
+                <state relative-caret-position="176">
+                  <caret line="171" selection-start-line="171" selection-end-line="171" />
                 </state>
               </provider>
             </entry>
@@ -77,22 +92,24 @@
           <file leaf-file-name="confirm.html" pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/sub-pages/confirm.html">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="425">
-                  <caret line="216" selection-start-line="216" selection-end-line="216" />
+                <state relative-caret-position="1640">
+                  <caret line="231" selection-start-line="231" selection-end-line="231" />
                 </state>
               </provider>
             </entry>
           </file>
           <file leaf-file-name="email.html" pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/sub-pages/email.html">
-              <provider selected="true" editor-type-id="text-editor" />
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="-1762" />
+              </provider>
             </entry>
           </file>
           <file leaf-file-name="form-elements.html" pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/sub-pages/form-elements.html">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="261">
-                  <caret line="289" selection-start-line="289" selection-end-line="289" />
+                <state relative-caret-position="127">
+                  <caret line="295" selection-start-line="295" selection-end-line="295" />
                 </state>
               </provider>
             </entry>
@@ -100,8 +117,8 @@
           <file leaf-file-name="second-chance.html" pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/sub-pages/second-chance.html">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="3750">
-                  <caret line="250" selection-start-line="250" selection-end-line="250" />
+                <state relative-caret-position="232">
+                  <caret line="262" selection-start-line="262" selection-end-line="262" />
                 </state>
               </provider>
             </entry>
@@ -110,20 +127,20 @@
       </split-first>
       <split-second>
         <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-          <file leaf-file-name="_draw-styles.scss" pinned="false" current-in-tab="false">
+          <file leaf-file-name="_draw-styles.scss" pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/scss/_draw-styles.scss">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="165">
-                  <caret line="11" column="16" selection-start-line="11" selection-start-column="16" selection-end-line="11" selection-end-column="16" />
+                <state relative-caret-position="198">
+                  <caret line="217" column="27" lean-forward="true" selection-start-line="217" selection-start-column="27" selection-end-line="217" selection-end-column="27" />
                 </state>
               </provider>
             </entry>
           </file>
-          <file leaf-file-name="_side-bar.scss" pinned="false" current-in-tab="true">
+          <file leaf-file-name="_side-bar.scss" pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/scss/_side-bar.scss">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="240">
-                  <caret line="16" column="26" selection-start-line="16" selection-start-column="26" selection-end-line="16" selection-end-column="26" />
+                <state relative-caret-position="120">
+                  <caret line="8" column="23" lean-forward="true" selection-start-line="8" selection-start-column="23" selection-end-line="8" selection-end-column="23" />
                 </state>
               </provider>
             </entry>
@@ -140,8 +157,8 @@
           <file leaf-file-name="_page-states.scss" pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/scss/_page-states.scss">
               <provider selected="true" editor-type-id="text-editor">
-                <state>
-                  <caret selection-end-line="27" />
+                <state relative-caret-position="270">
+                  <caret line="18" column="23" selection-start-line="18" selection-start-column="23" selection-end-line="18" selection-end-column="23" />
                 </state>
               </provider>
             </entry>
@@ -176,26 +193,8 @@
           <file leaf-file-name="main.js" pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/js/main.js">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="3045">
-                  <caret line="203" selection-start-line="203" selection-end-line="203" />
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file leaf-file-name="_typography.scss" pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/scss/_typography.scss">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="4695">
-                  <caret line="313" selection-start-line="313" selection-end-line="313" />
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file leaf-file-name="_footer.scss" pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/scss/_footer.scss">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="135">
-                  <caret line="9" column="1" selection-start-line="9" selection-start-column="1" selection-end-line="9" selection-end-column="1" />
+                <state relative-caret-position="291">
+                  <caret line="146" column="27" lean-forward="true" selection-start-line="146" selection-start-column="27" selection-end-line="146" selection-end-column="27" />
                 </state>
               </provider>
             </entry>
@@ -241,14 +240,15 @@
       <find>tabb</find>
       <find>ticker</find>
       <find>logo-newcastle</find>
+      <find>social</find>
     </findStrings>
     <replaceStrings>
       <replace />
       <replace>logo</replace>
     </replaceStrings>
     <dirStrings>
-      <dir>$PROJECT_DIR$/scss</dir>
       <dir>$PROJECT_DIR$</dir>
+      <dir>$PROJECT_DIR$/scss</dir>
     </dirStrings>
   </component>
   <component name="Git.Settings">
@@ -286,21 +286,21 @@
         <option value="$APPLICATION_CONFIG_DIR$/scratches/scratch_1.html" />
         <option value="$PROJECT_DIR$/scss/_button.scss" />
         <option value="$PROJECT_DIR$/scss/_page-states.scss" />
-        <option value="$PROJECT_DIR$/scss/_draw-styles.scss" />
         <option value="$PROJECT_DIR$/scss/_hero.scss" />
-        <option value="$PROJECT_DIR$/scss/_footer.scss" />
+        <option value="$PROJECT_DIR$/scss/_forms.scss" />
         <option value="$PROJECT_DIR$/js/main.js" />
         <option value="$PROJECT_DIR$/scss/_typography.scss" />
-        <option value="$PROJECT_DIR$/scss/_forms.scss" />
+        <option value="$PROJECT_DIR$/sub-pages/confirm.html" />
         <option value="$PROJECT_DIR$/index.html" />
         <option value="$PROJECT_DIR$/steps/step-one.html" />
         <option value="$PROJECT_DIR$/steps/step-two.html" />
         <option value="$PROJECT_DIR$/steps/step-three.html" />
-        <option value="$PROJECT_DIR$/steps/step-four.html" />
         <option value="$PROJECT_DIR$/sub-pages/account.html" />
-        <option value="$PROJECT_DIR$/sub-pages/confirm.html" />
         <option value="$PROJECT_DIR$/sub-pages/form-elements.html" />
         <option value="$PROJECT_DIR$/sub-pages/second-chance.html" />
+        <option value="$PROJECT_DIR$/scss/_footer.scss" />
+        <option value="$PROJECT_DIR$/steps/step-four.html" />
+        <option value="$PROJECT_DIR$/scss/_draw-styles.scss" />
       </list>
     </option>
   </component>
@@ -339,6 +339,11 @@
             <path>
               <item name="newcastle" type="b2602c69:ProjectViewProjectNode" />
               <item name="newcastle" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
+            <path>
+              <item name="newcastle" type="b2602c69:ProjectViewProjectNode" />
+              <item name="newcastle" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="scss" type="2a2b976b:PhpTreeStructureProvider$1" />
             </path>
             <path>
               <item name="newcastle" type="b2602c69:ProjectViewProjectNode" />
@@ -530,12 +535,12 @@
       <workItem from="1531880234022" duration="849000" />
       <workItem from="1531885841839" duration="179000" />
       <workItem from="1532061091493" duration="519000" />
-      <workItem from="1532335792876" duration="411000" />
+      <workItem from="1532335792876" duration="2800000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="153696000" />
+    <option name="totallyTimeSpent" value="156085000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="22" width="1440" height="878" extended-state="6" />
@@ -544,13 +549,14 @@
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" />
       <window_info anchor="bottom" id="Database Changes" order="8" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.23614776" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.23614776" />
       <window_info anchor="bottom" id="Version Control" order="7" />
       <window_info anchor="bottom" id="Terminal" order="7" weight="0.33931947" />
-      <window_info id="Gulp" order="2" sideWeight="0.32849604" side_tool="true" visible="true" weight="0.18168813" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.67150396" visible="true" weight="0.18168813" />
+      <window_info id="Gulp" order="2" sideWeight="0.3298791" side_tool="true" visible="true" weight="0.18168813" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.6701209" visible="true" weight="0.18168813" />
       <window_info anchor="bottom" id="Docker" order="8" show_stripe_button="false" />
       <window_info anchor="right" id="Database" order="3" />
+      <window_info anchor="bottom" id="Find" order="1" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info id="Favorites" order="2" side_tool="true" />
@@ -560,7 +566,6 @@
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
-      <window_info anchor="bottom" id="Find" order="1" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -795,31 +800,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/scss/_page-states.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret selection-end-line="27" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/scss/main.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="210">
-          <caret line="14" column="19" selection-start-line="14" selection-start-column="19" selection-end-line="14" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/scss/_button.scss">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1200">
           <caret line="80" column="3" selection-start-line="80" selection-start-column="3" selection-end-line="80" selection-end-column="3" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/scss/_draw-styles.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="165">
-          <caret line="11" column="16" selection-start-line="11" selection-start-column="16" selection-end-line="11" selection-end-column="16" />
         </state>
       </provider>
     </entry>
@@ -830,27 +814,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/scss/_footer.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="135">
-          <caret line="9" column="1" selection-start-line="9" selection-start-column="1" selection-end-line="9" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/js/main.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="3045">
-          <caret line="203" selection-start-line="203" selection-end-line="203" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/scss/_typography.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="4695">
-          <caret line="313" selection-start-line="313" selection-end-line="313" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/scss/_forms.scss">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="531">
@@ -858,76 +821,120 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/scss/_side-bar.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="8" column="23" lean-forward="true" selection-start-line="8" selection-start-column="23" selection-end-line="8" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/scss/_typography.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="35">
+          <caret line="287" column="10" lean-forward="true" selection-start-line="287" selection-start-column="10" selection-end-line="287" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/steps/step-one.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="450">
-          <caret line="214" selection-start-line="214" selection-end-line="214" />
+        <state relative-caret-position="243">
+          <caret line="225" selection-start-line="225" selection-end-line="225" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/steps/step-two.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="279">
-          <caret line="306" selection-start-line="306" selection-end-line="306" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/steps/step-three.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="401">
-          <caret line="207" selection-start-line="207" selection-end-line="207" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/steps/step-four.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="192">
-          <caret line="220" selection-start-line="220" selection-end-line="220" />
+        <state relative-caret-position="208">
+          <caret line="318" selection-start-line="318" selection-end-line="318" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/sub-pages/account.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="293">
-          <caret line="160" selection-start-line="160" selection-end-line="160" />
+        <state relative-caret-position="176">
+          <caret line="171" selection-start-line="171" selection-end-line="171" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sub-pages/email.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1762" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sub-pages/form-elements.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="127">
+          <caret line="295" selection-start-line="295" selection-end-line="295" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sub-pages/second-chance.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="232">
+          <caret line="262" selection-start-line="262" selection-end-line="262" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/sub-pages/confirm.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="425">
-          <caret line="216" selection-start-line="216" selection-end-line="216" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/sub-pages/email.html">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/sub-pages/second-chance.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="3750">
-          <caret line="250" selection-start-line="250" selection-end-line="250" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/scss/_side-bar.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="240">
-          <caret line="16" column="26" selection-start-line="16" selection-start-column="26" selection-end-line="16" selection-end-column="26" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/sub-pages/form-elements.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="261">
-          <caret line="289" selection-start-line="289" selection-end-line="289" />
+        <state relative-caret-position="1640">
+          <caret line="231" selection-start-line="231" selection-end-line="231" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="46">
-          <caret line="188" column="10" lean-forward="true" selection-start-line="188" selection-start-column="10" selection-end-line="188" selection-end-column="10" />
+        <state relative-caret-position="1759">
+          <caret line="226" selection-start-line="226" selection-end-line="226" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/scss/_footer.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="376">
+          <caret line="72" column="9" selection-start-line="72" selection-start-column="9" selection-end-line="72" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/main.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="291">
+          <caret line="146" column="27" lean-forward="true" selection-start-line="146" selection-start-column="27" selection-end-line="146" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/scss/main.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="14" column="19" selection-start-line="14" selection-start-column="19" selection-end-line="14" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/scss/_page-states.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="270">
+          <caret line="18" column="23" selection-start-line="18" selection-start-column="23" selection-end-line="18" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/steps/step-four.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="298">
+          <caret line="139" lean-forward="true" selection-start-line="139" selection-end-line="139" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/scss/_draw-styles.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="198">
+          <caret line="217" column="27" lean-forward="true" selection-start-line="217" selection-start-column="27" selection-end-line="217" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/steps/step-three.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="236">
+          <caret line="219" selection-start-line="219" selection-end-line="219" />
         </state>
       </provider>
     </entry>

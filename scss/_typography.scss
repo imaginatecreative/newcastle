@@ -309,6 +309,8 @@ a {
   color: $link-color;
   text-decoration: none;
   z-index: 20;
+  font-size: $paragraph-size;
+
   position: relative;
   pointer-events: initial;
 

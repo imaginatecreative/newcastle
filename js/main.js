@@ -147,7 +147,7 @@
             autoplay: true,
             autoplaySpeed: 1000,
             pauseOnHover:true,
-            // speed: 8000,
+            speed: 8000,
             cssEase:'linear',
             responsive: [
                 {
