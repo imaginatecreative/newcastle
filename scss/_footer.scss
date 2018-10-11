@@ -40,7 +40,7 @@ footer {
   }
   .inner_wrapper.acred {
     width: 100%;
-    height: 100%;
+    height: 120%;
     display: inline-flex;
     justify-content: space-between;
     top: 0;
@@ -49,15 +49,35 @@ footer {
       justify-content: center;
       align-items: center;
       &.payment {
+        flex-direction: column;
         justify-content: flex-start;
-        .methods {
-          padding: 10px;
-          text-align: center;
-          img {
-            max-width: 50px;
-            width: 30%;
-            display: inline-block;
+        align-items: flex-start;
+        .methods-wrap {
+          width: 100%;
+          display: inline-flex;
+          justify-content: space-between;
+          padding: 0.5rem;
+
+          .methods {
+            padding: 10px;
+            text-align: center;
+            img {
+              max-width: 50px;
+              width: 30%;
+              display: inline-block;
+            }
+            &~img{
+              max-width: 150px;
+            }
           }
+          .sixteen{
+
+          }
+        }
+        .gamble{
+          max-width: 300px;
+          width: auto;
+          padding: 0.5rem 1rem;
         }
       }
       &.social {
@@ -92,7 +112,7 @@ footer {
         display: inline-block;
         a {
           color: $black;
-          font-size: $header-size / 3.5;
+          font-size: $header-size / 4;
           padding-right: 0.5rem;
           &:after {
             content: '|';
@@ -112,6 +132,7 @@ footer {
   }
   .block.copy {
     width: 100%;
+    position: relative;
     h6 {
       margin: 0;
       color: $black;

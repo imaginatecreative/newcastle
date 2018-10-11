@@ -1,11 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="894c8ce1-43ad-4d9d-9b1d-a595fbbc44f9" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/main.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/main.min.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/scss/_draw-styles.scss" beforeDir="false" afterPath="$PROJECT_DIR$/scss/_draw-styles.scss" afterDir="false" />
-    </list>
+    <list default="true" id="894c8ce1-43ad-4d9d-9b1d-a595fbbc44f9" name="Default" comment="" />
     <ignored path=".idea/dataSources.local.xml" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -523,12 +519,12 @@
       <workItem from="1531885841839" duration="179000" />
       <workItem from="1532061091493" duration="519000" />
       <workItem from="1532335792876" duration="2800000" />
-      <workItem from="1532417110034" duration="58000" />
+      <workItem from="1532417110034" duration="206000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="156143000" />
+    <option name="totallyTimeSpent" value="156291000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="22" width="1440" height="878" extended-state="6" />
@@ -537,11 +533,11 @@
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" />
       <window_info anchor="bottom" id="Database Changes" order="8" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.23614776" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.23614776" />
       <window_info anchor="bottom" id="Version Control" order="7" />
       <window_info anchor="bottom" id="Terminal" order="7" weight="0.33931947" />
-      <window_info active="true" id="Gulp" order="2" sideWeight="0.3298791" side_tool="true" visible="true" weight="0.18168813" />
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.6701209" visible="true" weight="0.18168813" />
+      <window_info active="true" id="Gulp" order="2" sideWeight="0.3298153" side_tool="true" visible="true" weight="0.18168813" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.6701847" visible="true" weight="0.18168813" />
       <window_info anchor="bottom" id="Docker" order="8" show_stripe_button="false" />
       <window_info anchor="right" id="Database" order="3" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
