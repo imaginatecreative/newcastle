@@ -78,6 +78,10 @@ footer {
           max-width: 300px;
           width: auto;
           padding: 0.5rem 1rem;
+
+          img {
+            max-width:264px;
+          }
         }
       }
       &.social {
